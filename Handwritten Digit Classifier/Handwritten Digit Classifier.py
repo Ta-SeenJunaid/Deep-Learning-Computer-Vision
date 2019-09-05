@@ -16,7 +16,7 @@ def draw_test_image(name, pred, input_img):
                 cv2.FONT_HERSHEY_COMPLEX_SMALL, 4, (255, 0, 0), 2)
     cv2.imshow(name, expanded_image)
     
-for i in range(0, 10):
+for i in range(0, 12):
     rand = np.random.randint(0,len(x_test))
     input_img = x_test[rand]
 
@@ -32,3 +32,4 @@ cv2.destroyAllWindows()
 
 
     
+
